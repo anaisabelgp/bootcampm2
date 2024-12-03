@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Simple</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"> 
+</head>
+<body>
+    <header>
+        <h1><i class="fa-solid fa-cart-shopping"></i></i> Burguer shop</h1>
+    </header>
+    <main>
+        <div class="products">
+            <div class="product">
+                <img  src="images\burger-5893927_640.jpg" alt="Basic Burguer">
+                <h2>Basic Burguer</h2>
+                <p>Precio: $10000</p>
+                <button onclick="addToCart('Basic Burguer', 10000)">Comprar</button>
+            </div>
+            <div class="product">
+                <img src="images\burger-5722678_640.jpg" alt="Doble Burguer">
+                <h2>Doble Burguer</h2>
+                <p>Precio: $20000</p>
+                <button onclick="addToCart('Doble Burguer', 20000)">Comprar</button>
+            </div>
+            <div class="product">
+                <img src="images\burger-6309618_640.jpg" alt="Hawaian Burguer">
+                <h2>Hawaian Burguer</h2>
+                <p>Precio: $15000</p>
+                <button onclick="addToCart('Hawaian Burguer', 15000)">Comprar</button>
+            </div>
+            <div class="product">
+                <img src="images\burger-4953465_640.jpg" alt="Combo Burguer">
+                <h2>Combo Burguer</h2>
+                <p>Precio: $25000</p>
+                <button onclick="addToCart('Combo Burguer', 25000)">Comprar</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <a href="cart.html">Ver carrito</a>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
